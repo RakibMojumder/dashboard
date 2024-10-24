@@ -26,7 +26,7 @@ const navItems = [
 
 const NavItems = () => {
   return (
-    <div className="w-[280px] bg-primary p-5 space-y-2 rounded-2xl">
+    <div className="w-[280px] bg-primary p-5 space-y-2 rounded-2xl hidden md:block">
       {navItems.map((item, index) => {
         const { label, icon: Icon } = item;
 

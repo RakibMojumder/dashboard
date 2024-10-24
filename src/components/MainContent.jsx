@@ -8,12 +8,12 @@ const MainContent = () => {
     <div className="flex-1 bg-secondary overflow-y-auto scrollbar">
       <Navbar />
       <div className="p-8">
-        <div className="flex items-start justify-between">
-          <div className="space-y-2">
+        <div className="flex flex-col md:flex-row gap-5 items-start justify-between">
+          <div className="space-y-2 order-2 md:order-1">
             <h1 className="text-2xl font-semibold">Settings</h1>
             <p>Manage your dashboard here</p>
           </div>
-          <div className="h-12 w-80 border border-neutral-500 rounded-md relative">
+          <div className="order-1 md:order-2 h-12 w-full md:w-80 border border-neutral-500 rounded-md relative">
             <input
               type="text"
               placeholder="Search what your need"

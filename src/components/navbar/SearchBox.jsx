@@ -3,7 +3,7 @@ import { RiCommandLine } from "react-icons/ri";
 
 const SearchBox = () => {
   return (
-    <div className="bg-secondary flex items-center gap-x-2 px-3.5 h-9 rounded-md">
+    <div className="bg-secondary hidden xl:flex items-center gap-x-2 px-3.5 h-9 rounded-md">
       <IoSearchOutline size={22} />
       <input
         type="text"

@@ -3,8 +3,8 @@ const CompanyInfo = () => {
     <div className="flex-1 bg-primary p-5 rounded-2xl">
       <h3 className="text-2xl font-semibold">Company Info</h3>
       <div className="mt-8 space-y-7">
-        <div className="flex items-center gap-x-5 w-full">
-          <div className="w-1/2">
+        <div className="flex flex-col lg:flex-row items-center gap-5 w-full">
+          <div className="w-full lg:w-1/2">
             <label className="block mb-2">Company Name*</label>
             <input
               type="text"
@@ -12,7 +12,7 @@ const CompanyInfo = () => {
               className="w-full py-1.5 px-3 rounded-lg bg-transparent border border-neutral-500 focus:outline-none"
             />
           </div>
-          <div className="w-1/2">
+          <div className="w-full lg:w-1/2">
             <label className="block mb-2">Company Website*</label>
             <input
               type="text"
@@ -21,8 +21,8 @@ const CompanyInfo = () => {
             />
           </div>
         </div>
-        <div className="flex items-center gap-x-5 w-full">
-          <div className="w-1/2">
+        <div className="flex flex-col xl:flex-row items-center gap-5 w-full">
+          <div className="w-full xl:w-1/2">
             <label className="block mb-2">Company Name*</label>
             <div className="flex items-center gap-x-5">
               <input
@@ -37,7 +37,7 @@ const CompanyInfo = () => {
               />
             </div>
           </div>
-          <div className="w-1/2">
+          <div className="w-full xl:w-1/2">
             <label className="block mb-2">Contact Email*</label>
             <input
               type="text"
